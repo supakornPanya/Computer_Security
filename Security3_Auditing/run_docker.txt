@@ -1,0 +1,1 @@
+docker run -d --rm -p 8000:8000 -e "SPLUNK_START_ARGS=--accept-license" -e "SPLUNK_GENERAL_TERMS=--accept-sgt-current-at-splunk-com" -e "SPLUNK_PASSWORD=YOUR_PASSWORD" --name splunk splunk/splunk:latest
